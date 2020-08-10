@@ -45,25 +45,57 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto ml-5">
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Home</span></a>
+                      <a class="nav-link" href="{{ url('/') }}">Home</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Profile
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
+                      <a class="dropdown-item" href="/dosen">Dosen dan Tenaga Kerja</a>
+                      <a class="dropdown-item" href="/prestasi">Prestasi</a>
+                      <a class="dropdown-item" href="/sejarah">Sejarah</a>
+                      <a class="dropdown-item" href="/struktur">Struktur</a>
+                      <a class="dropdown-item" href="/visimisi">visi Misi</a>
+                    </div>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Profile</a>
+                      <a class="nav-link" href="/bk">Bidang Keahlian</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Akademik
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
+                      <a class="dropdown-item" href="/akreditasi">Akreditasi</a>
+                      <a class="dropdown-item" href="/jadwalkuliah">Jadwal Kuliah</a>
+                      <a class="dropdown-item" href="/kalender">Kalender</a>
+                      <a class="dropdown-item" href="/mahasiswa">Mahasiswa</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Kemahasiswaan
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
+                      <a class="dropdown-item" href="/alumni">Alumni</a>
+                      <a class="dropdown-item" href="/kegiatan">Kegiatan</a>
+                      <a class="dropdown-item" href="/loker">Lowongan Kerja</a>
+                      <a class="dropdown-item" href="/organisasi">Organisasi</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Riset
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
+                      <a class="dropdown-item" href="/penelitian">penelitian</a>
+                      <a class="dropdown-item" href="/pengabdian">pengabdian</a>
+                      <a class="dropdown-item" href="/profilepeneliti">profilepeneliti</a>
+                    </div>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Bidang Keahlian</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Akademik</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Kemahasiswaan</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Riset</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Fasilitas</a>
+                      <a class="nav-link" href="/fasilitas">Fasilitas</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="#">Kontak</a>
@@ -93,7 +125,7 @@
 @yield('content')
 
 <!-- Footer -->
-<footer class="pt-4 background footer-text">
+<footer class="pt-4 background footer-text mt-5">
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left">
