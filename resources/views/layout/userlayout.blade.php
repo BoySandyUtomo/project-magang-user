@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/Login-image.png') }}">
 
     <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="{{asset('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style-baru.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
 </head>
+
 <body>
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i></a>
@@ -35,15 +37,22 @@
             </form>
         </div>
     </nav> -->
+<div class="container-fluid background">
+  <div class="row">
+      <div class="col kotak mt-4">
+        <img src="{{ asset('img/teknologi informasi.png') }}" class="kotak">
+      </div>
+  </div>
+</div>
 
 
-    <div class="container-fluid background">
-        <div class="row">
-            <div class="col col-image">
-            <img src="{{ asset('img/teknologi informasi.png') }}" class="d-block w-25">
-            <nav class="navbar navbar-expand-lg background mt-3 text-white">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto ml-5">
+<nav class="navbar navbar-expand-md text-light sticky-top background">
+  <div class="container-fluid">
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
                       <a class="nav-link" href="{{ url('/') }}">Home</span></a>
                   </li>
@@ -100,27 +109,13 @@
                   <li class="nav-item">
                       <a class="nav-link" href="#">Kontak</a>
                   </li>
-                  <!-- <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                  </li> -->
                   </ul>
                   <form class="form-inline my-2 my-lg-0  mr-5">
                   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                   </form>
               </div>
-            </nav>
-            </div>
-        </div>
-    </div>
-
+  </div>
+</nav>
     
 @yield('content')
 
@@ -221,27 +216,27 @@
   <!-- Social buttons -->
   <ul class="list-unstyled list-inline text-center mt-5">
     <li class="list-inline-item">
-      <a class="btn-floating btn-fb mx-1">
+      <a class="btn-floating btn-gplus mx-1" href="#">
         <i class="fab fa-facebook-f"> </i>
       </a>
     </li>
     <li class="list-inline-item">
-      <a class="btn-floating btn-tw mx-1">
+      <a class="btn-floating btn-gplus mx-1" href="#">
         <i class="fab fa-twitter"> </i>
       </a>
     </li>
     <li class="list-inline-item">
-      <a class="btn-floating btn-gplus mx-1">
+      <a class="btn-floating btn-gplus mx-1" href="#">
         <i class="fab fa-google-plus-g"> </i>
       </a>
     </li>
     <li class="list-inline-item">
-      <a class="btn-floating btn-li mx-1">
+      <a class="btn-floating btn-gplus mx-1" href="#">
         <i class="fab fa-linkedin-in"> </i>
       </a>
     </li>
     <li class="list-inline-item">
-      <a class="btn-floating btn-dribbble mx-1">
+      <a class="btn-floating btn-gplus mx-1" href="#">
         <i class="fab fa-dribbble"> </i>
       </a>
     </li>
