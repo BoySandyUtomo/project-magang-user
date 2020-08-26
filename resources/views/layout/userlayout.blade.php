@@ -20,23 +20,25 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i></a>
-        <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i></a>
-        <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i></a>
-        <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto"> </ul>
-            <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+<nav class="navbar navbar-expand-lg nav-quick text-dark background-sec">
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Quick Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
         </div>
-    </nav> -->
+      </li>
+
+      <li class="nav-item">
+            <a class="nav-link" href="">Official UB</span></a>
+        </li>
+    </ul>
+  </div>
+</nav>
+
+  
 <div class="container-fluid background">
   <div class="row">
       <div class="col kotak mt-4">
@@ -46,77 +48,79 @@
 </div>
 
 
-<nav class="navbar navbar-expand-md text-light sticky-top background">
-  <div class="container-fluid">
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-                  <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                      <a class="nav-link" href="{{ url('/') }}">Home</span></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Profile
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
-                      <a class="dropdown-item" href="/dosen">Dosen dan Tenaga Kerja</a>
-                      <a class="dropdown-item" href="/prestasi">Prestasi</a>
-                      <a class="dropdown-item" href="/sejarah">Sejarah</a>
-                      <a class="dropdown-item" href="/struktur">Struktur</a>
-                      <a class="dropdown-item" href="/visimisi">visi Misi</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/bk">Bidang Keahlian</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Akademik
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
-                      <a class="dropdown-item" href="/akreditasi">Akreditasi</a>
-                      <a class="dropdown-item" href="/jadwalkuliah">Jadwal Kuliah</a>
-                      <a class="dropdown-item" href="/kalender">Kalender</a>
-                      <a class="dropdown-item" href="/mahasiswa">Mahasiswa</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Kemahasiswaan
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
-                      <a class="dropdown-item" href="/alumni">Alumni</a>
-                      <a class="dropdown-item" href="/kegiatan">Kegiatan</a>
-                      <a class="dropdown-item" href="/loker">Lowongan Kerja</a>
-                      <a class="dropdown-item" href="/organisasi">Organisasi</a>
-                    </div>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Riset
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
-                      <a class="dropdown-item" href="/penelitian">penelitian</a>
-                      <a class="dropdown-item" href="/pengabdian">pengabdian</a>
-                      <a class="dropdown-item" href="/profilepeneliti">profilepeneliti</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/fasilitas">Fasilitas</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Kontak</a>
-                  </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0  mr-5">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  </form>
-              </div>
+<section id="navbar" class="sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark text-light background">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+  <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url('/') }}">Home</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Profile
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
+            <a class="dropdown-item" href="/dosen">Dosen dan Tenaga Kerja</a>
+            <a class="dropdown-item" href="/prestasi">Prestasi</a>
+            <a class="dropdown-item" href="/sejarah">Sejarah</a>
+            <a class="dropdown-item" href="/struktur">Struktur</a>
+            <a class="dropdown-item" href="/visimisi">visi Misi</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/bk">Bidang Keahlian</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Akademik
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
+            <a class="dropdown-item" href="/akreditasi">Akreditasi</a>
+            <a class="dropdown-item" href="/jadwalkuliah">Jadwal Kuliah</a>
+            <a class="dropdown-item" href="/kalender">Kalender</a>
+            <a class="dropdown-item" href="/mahasiswa">Mahasiswa</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Kemahasiswaan
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
+            <a class="dropdown-item" href="/alumni">Alumni</a>
+            <a class="dropdown-item" href="/kegiatan">Kegiatan</a>
+            <a class="dropdown-item" href="/loker">Lowongan Kerja</a>
+            <a class="dropdown-item" href="/organisasi">Organisasi</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Riset
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 250px;">
+            <a class="dropdown-item" href="/penelitian">penelitian</a>
+            <a class="dropdown-item" href="/pengabdian">pengabdian</a>
+            <a class="dropdown-item" href="/profilepeneliti">profilepeneliti</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/fasilitas">Fasilitas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/kontak">Kontak</a>
+        </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0  mr-5">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
   </div>
 </nav>
-    
+</section>
+
+
 @yield('content')
 
 <!-- Footer -->
