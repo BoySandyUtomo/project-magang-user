@@ -172,9 +172,8 @@ a {
     background-color: transparent;
 }
 
-/* diganti #0056b3 */
 a:hover {
-    color: white;
+    color: #0056b3;
     text-decoration: underline;
 }
 
@@ -5169,9 +5168,6 @@ input[type="button"].btn-block {
     color: rgba(0, 0, 0, 0.9);
 }
 
-
-/* Diubah color nya jadi putih */
-
 .navbar-dark .navbar-brand {
     color: #fff;
 }
@@ -5182,7 +5178,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -5191,7 +5187,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
-    color:#fff;
+    color: rgba(255, 255, 255, 0.25);
 }
 
 .navbar-dark .navbar-nav .show>.nav-link,
@@ -5202,7 +5198,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-toggler {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -5211,7 +5207,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-text {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-dark .navbar-text a {
@@ -5222,9 +5218,6 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-text a:focus {
     color: #fff;
 }
-
-
-/* Sampe sini */
 
 .card {
     position: relative;
